@@ -17,5 +17,5 @@ $ python search.py -f directorio archivo
 Buscar subdirectorio
 
 ```bash
-$ python search -d directorio sub-directorio
+$ python search.py -d directorio sub-directorio
 ```
