@@ -23,3 +23,5 @@ if len(sys.argv) > 2:
 		searchFiles(sys.argv[2], sys.argv[3])
 	if sys.argv[1] == "-d":
 		searchDirs(sys.argv[2], sys.argv[3])
+else:
+	print("Uso: python " + os.path.basename(__file__) + " [-f|-d] path file/subdirectory")
